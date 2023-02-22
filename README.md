@@ -1,6 +1,6 @@
 # python-command-line-dockerfile
 
-This source is contain python command line with pip install inside.
+This source is contain python flask (minimal) with pip install inside.
 It also use dockerfile for wrapping the source. 
 You can freely clone this source.
 
@@ -13,21 +13,17 @@ clone this project
   git clone https://github.com/taufikrendi/python-command-line-dockerfile.git
 ```
 
-build docker images
+build docker compose
 ```bash
-  docker build -t <your image name> .
-```
-
-build docker container
-```bash
-  docker run -d <your image name> -n <your container name>
+  docker-compose up -d
 ```
 
 
 ## Features
 
-- python version 3.8
+- python version python:3.9-slim-buster
 - pip install requirements.
+- Flask New
 
 
 ## Authors
