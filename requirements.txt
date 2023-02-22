@@ -1,3 +1,8 @@
 google-play-scraper
 pandas
 numpy
+tqdm
+pygments
+matplotlib
+seaborn
+Flask
