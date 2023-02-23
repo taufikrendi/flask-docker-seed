@@ -23,7 +23,7 @@ build docker compose
 
 - python version python:3.9-slim-buster
 - pip install requirements.
-- Flask New
+- Flask Newest Version
 
 
 ## Authors
